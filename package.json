@@ -1,0 +1,19 @@
+{
+  "name": "500",
+  "description": "A microservice that always sends a 500 response",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "micro -p 3000 index.js"
+  },
+  "repository": "uptimeumbrella/500",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^6.0.2"
+  }
+}
